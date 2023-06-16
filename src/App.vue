@@ -19,7 +19,7 @@
         @click="openNote(list)"
         v-for="list in store.state.listNotes"
         :key="list"
-        class="note-item rounded ma-3 pa-2 elevation-5 d-flex justify-center align-center text-white font-weight-bold text-h6"
+        class="note-item rounded ma-3 pa-2 elevation-5 d-flex justify-center align-center text-white font-weight-bold text-h6 text-center"
         >
           {{ list.title }}
         </div>

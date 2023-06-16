@@ -2,8 +2,8 @@
 
 <template>
   <div
-  class="fundo d-flex justify-center align-center px-4">
-    <div class="new-note rounded pa-3 elevation-6">
+  class="fundo d-flex justify-center align-center">
+    <div class="new-note pa-3 elevation-6">
       <div>
 
         <div class="d-flex justify-space-between align-center mb-3">
@@ -79,13 +79,11 @@ const addNewNote = () => {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.182);
-    backdrop-filter: blur(8px);
 
     .new-note {
       width: 100%;
       max-width: 100%;
-      height: 80%;
+      height: 100%;
       background-color: #202223;
 
       div:nth-of-type(1) {

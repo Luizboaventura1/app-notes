@@ -62,15 +62,15 @@ const deleteNote = () => {
 // Salvar nota
 
 const saveNote = () => {
-  listNotes.value.find(item => {
-    if(item == tempListNote.value) 
+  const indexNote = listNotes.value.find(item => item == tempListNote.value)
 
-      item.title = titleNote.value
-      item.text = descNote.value
+  if(indexNote != undefined) {
 
-  })
+    indexNote.title = titleNote.value
+    indexNote.text = descNote.value
 
-  store.commit('atualizarListNotes',listNotes.value)
+    store.commit('atualizarListNotes',listNotes.value)
+  }
 }
 
 </script>
