@@ -150,5 +150,12 @@ const openNote = (note) => {
 ::-webkit-scrollbar {
   display: none;
 }
+
+@media screen and (max-width: 568px) {
+  .note-item {
+    widows: 120px;
+    height: 120px;
+  }
+}
   
 </style>
