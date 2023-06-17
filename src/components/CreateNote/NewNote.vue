@@ -17,7 +17,7 @@
         placeholder="Titulo">
 
       </div>
-      <div class="mb-2">
+      <div class="">
 
         <h1 class="text-h6 text-white font-weight-bold mb-3">Texto</h1>
         <textarea
